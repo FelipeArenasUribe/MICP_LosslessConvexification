@@ -1,6 +1,6 @@
 # MICP_LosslessConvexification
 
-This project presents a Lossless Convexification in Fuel-Optimal Control of Linear Systems with Discrete Inputs.
+This project presents a Lossless Convexification algorithm for Optimal Control of Linear Systems with Discrete Inputs.
 
 Developed by: **Felipe Arenas-Uribe**  
 Autonomy, Robotics and Controls Lab  
@@ -37,7 +37,7 @@ The examples and experiments from the [associated paper](https://arxiv.org/abs/2
 
 If you find this work useful, please consider citing:
 
-**[Geometric Conditions for Lossless Convexification of Linear Systems with Discrete-Valued Inputs](https://arxiv.org/abs/2511.07711)**
+**[Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs](https://arxiv.org/abs/2511.07711)**
 
 ```bash
 @misc{arenasuribe2025geometricconditionslosslessconvexification,
