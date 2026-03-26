@@ -6,7 +6,9 @@ Developed by: **Felipe Arenas-Uribe**
 Autonomy, Robotics and Controls Lab  
 University of Kentucky  
 
----
+<p align="center">
+  <img src="figures/framework.png" width="42.25%" />
+</p>
 
 ## Features
 
