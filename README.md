@@ -40,10 +40,10 @@ If you find this work useful, please consider citing:
 **[Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs](https://arxiv.org/abs/2511.07711)**
 
 ```bash
-@misc{arenasuribe2025geometricconditionslosslessconvexification,
-      title={Geometric Conditions for Lossless Convexification in Fuel-Optimal Control of Linear Systems with Discrete-Valued Inputs}, 
+@misc{arenasuribe2026geometricconditionslosslessconvexification,
+      title={Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs}, 
       author={Felipe Arenas-Uribe and Hasan A. Poonawala and Jesse B. Hoagg},
-      year={2025},
+      year={2026},
       eprint={2511.07711},
       archivePrefix={arXiv},
       primaryClass={math.OC},
