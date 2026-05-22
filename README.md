@@ -37,11 +37,11 @@ The examples and experiments from the [associated paper](https://arxiv.org/abs/2
 
 If you find this work useful, please consider citing:
 
-**[Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs](https://arxiv.org/abs/2511.07711)**
+**[Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs: Real-Time Implementation for Spacecraft Rendezvous](https://arxiv.org/abs/2511.07711)**
 
 ```bash
 @misc{arenasuribe2026geometricconditionslosslessconvexification,
-      title={Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs}, 
+      title={Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs: Real-Time Implementation for Spacecraft Rendezvous}, 
       author={Felipe Arenas-Uribe and Hasan A. Poonawala and Jesse B. Hoagg},
       year={2026},
       eprint={2511.07711},
