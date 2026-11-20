@@ -1,52 +1,51 @@
-# MICP_LosslessConvexification
+# Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs
 
-This project presents a Lossless Convexification algorithm for Optimal Control of Linear Systems with Discrete Inputs.
+ **Felipe Arenas-Uribe, Hasan A. Poonawala, and Jesse B. Hoagg**, 
 
-Developed by: **Felipe Arenas-Uribe**  
-Autonomy, Robotics and Controls Lab  
-University of Kentucky  
+ Autonomy, Robotics and Controls Lab, 
+
+
+
+
+ University of Kentucky.
 
 <p align="center">
-  <img src="figures/framework.png" width="42.25%" />
+  <img src="figures/framework.png" width="55%" alt="Lossless convexification framework" />
 </p>
 
-## Features
+The paper studies fuel-optimal control of linear time-varying systems with discrete actuator inputs. Under its geometric and system-normality conditions, an optimal control of the continuous convex relaxation takes values in the original discrete input set almost everywhere. The numerical example uses Yamanaka–Ankersen relative motion in an elliptical orbit.
 
-Computes a discrete-valued control by solving a Linear program, enabling implementation for real-time applications such as spacecraft rendezvous maneuvers.
+## Code and experiments
 
----
+- [Paper_Experiments.ipynb](Paper_Experiments.ipynb): runs the paper's horizon selection, convex and mixed-integer validation, grid-resolution sweep, and fixed-horizon Monte Carlo study.
 
-## Usage
 
-### Requirements
+## Setup and run
 
-- Python 3.8+
-- NumPy
-- CvxPy
-- Matplotlib
+Use Python 3.10 or newer. From this directory:
 
-All dependencies can be installed via `pip`.
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+jupyter lab
+```
 
-### Running the Examples
+Open `Paper_Experiments.ipynb` and run all cells in order. In VS Code, select the installed environment as the notebook kernel. The default run performs all convex experiments and loads the recorded mixed-integer solution. In the first code cell, set `RUN_MILP=True` to solve the mixed-integer problem afresh; this requires Gurobi and an appropriate license and can take several minutes.
 
-The examples and experiments from the [associated paper](https://arxiv.org/abs/2511.07711) are included.
-
----
 
 ## Citation
 
-If you find this work useful, please consider citing:
+See the [paper preprint](https://arxiv.org/abs/2511.07711). If you find this work useful, please consider citing us:
 
-**[Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs: Real-Time Implementation for Spacecraft Rendezvous](https://arxiv.org/abs/2511.07711)**
-
-```bash
+```bibtex
 @misc{arenasuribe2026geometricconditionslosslessconvexification,
-      title={Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs: Real-Time Implementation for Spacecraft Rendezvous}, 
-      author={Felipe Arenas-Uribe and Hasan A. Poonawala and Jesse B. Hoagg},
-      year={2026},
-      eprint={2511.07711},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      url={https://arxiv.org/abs/2511.07711}, 
+  title={Geometric Conditions for Lossless Convexification in Linear Optimal Control with Discrete-Valued Inputs: Real-Time Implementation for Spacecraft Rendezvous},
+  author={Felipe Arenas-Uribe and Hasan A. Poonawala and Jesse B. Hoagg},
+  year={2026},
+  eprint={2511.07711},
+  archivePrefix={arXiv},
+  primaryClass={math.OC},
+  url={https://arxiv.org/abs/2511.07711}
 }
 ```
